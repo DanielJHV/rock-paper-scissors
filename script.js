@@ -87,22 +87,18 @@ function playRound() {
     }
 }
 
-
 rockBtn.addEventListener('click', () => {
     user = "rock";
     userImage.style.backgroundImage = "url(img/blue-rock.png)"
     playRound();
 });
-
-  
+ 
 paperBtn.addEventListener('click', () => {
     user = "paper";
     userImage.style.backgroundImage = "url(img/blue-paper.png)"
     playRound();
 });
-
-
-  
+ 
 scissorsBtn.addEventListener('click', () => {
     user = "scissors";
     userImage.style.backgroundImage = "url(img/blue-scissors.png)"
