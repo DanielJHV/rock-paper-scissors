@@ -1,14 +1,15 @@
+const userCount = document.getElementById("user-count");
+const computerCount = document.getElementById("computer-count");
+const informationalText = document.getElementById("informational-text");
+const rockBtn = document.getElementById("rock-btn");
+const paperBtn = document.getElementById("paper-btn");
+const scissorsBtn = document.getElementById("scissors-btn");
+const userImage = document.getElementById("user-image");
+const computerImage = document.getElementById("computer-image");
+
 let computerPoints = 0;
 let userPoints = 0;
-let userCount = document.getElementById("user-count");
-let computerCount = document.getElementById("computer-count");
-let informationalText = document.getElementById("informational-text");
 let user;
-let rockBtn = document.getElementById("rock-btn");
-let paperBtn = document.getElementById("paper-btn");
-let scissorsBtn = document.getElementById("scissors-btn");
-let userImage = document.getElementById("user-image");
-let computerImage = document.getElementById("computer-image");
 
 informationalText.textContent = "Make a choice."
 userCount.textContent = "Points: 0"
